@@ -1,0 +1,29 @@
+.hello{
+display: inline;
+padding:140px
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.hi{
+    background-color: black;
+}
+table, th, td {
+  border: 1px solid black;
+}
+p{
+    font-family: Arial;
+    text-align: center;
+    font-size: 30px;;
+}
+nav{
+    background-color: aliceblue
+}
+div{
+    text-align: center
+}
+h1{
+    text-align: center
+}
