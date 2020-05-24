@@ -16,14 +16,32 @@ table, th, td {
 p{
     font-family: Arial;
     text-align: center;
-    font-size: 30px;;
+    /* font-size: 20px;; */
+}
+#about{
+    font-family: Arial;
+    text-align: center;
+    font-size: 30px;
 }
 nav{
-    background-color: aliceblue
+    background-color: black
 }
 div{
     text-align: center
 }
 h1{
     text-align: center
+}
+#navigation{
+    word-spacing: 100px;
+    align-content: right;
+}
+#atags{
+    color: white;
+}
+#contact_box{
+    height: 100px;
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
 }

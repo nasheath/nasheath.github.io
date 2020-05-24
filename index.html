@@ -3,7 +3,8 @@
 <head>
 <link href="./css/style.css" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <title>Nasheath Ahmed</title>
     </head>
 <body>
@@ -15,15 +16,16 @@
         <li class="hello"><a href="projects.html">Projects</a></li>
         </ul>    
         </nav> -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContents" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarContents">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="courses.html">Courses</a>
-                    <a class="nav-item nav-link" href="resume.html">Resume</a>
+                <div id="navigation" class="navbar-nav">
+                    <a id="atags" class="nav-item nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    <a id="atags" class="nav-item nav-link" href="#courses">Courses</a>
+                    <a id="atags" class="nav-item nav-link" href="#contact">Contact</a>
+                    <a id="atags" class="nav-item nav-link" href="resume.html">Resume</a>
                     <!-- <a class="nav-item nav-link" href="projects.html">Projects</a> -->
                 </div>
             </div>
@@ -33,10 +35,10 @@
     <br>
     <br>
     <h1>About Me</h1>
-    <p>
+    <p id="about">
     Welcome. My name is Nasheath Ahmed. I am a current third year undergraduate student passionate about
      computer science and medicine and incorporating technology into the clinical field of medicine
-      using machine learning and software techniques. I am currently majoring in Computer Science and minoring in Biology. Click <a href="https://www.linkedin.com/in/nasheath-ahmed-562761141">here</a> for a link to my linkedin. 
+      using machine learning and software techniques. I am currently majoring in Computer Science and minoring in Biology.
     <br>
     <br>
     <br>
@@ -44,8 +46,61 @@
     <img src="./assets/images/id_Pic.JPG" width=600 height=600 alt="picture of myself">
         </div>
     </p>
+    <div id="courses">
+        <h1 style="font-size:36px">Courses and Education</h1>
+        <h3> Brown University</h3>
+        <p>Class of 2022</p>
+        <p>Expected ScB in Computer Science</p>
+        <p>Expected A.B in Biology</p>
+        <h3>Computer Science</h3>
+        <ul>
+        <li>CSCI 0060: Practical Sysyems Skills</li>
+        <li>CSCI 0150: Introduction to Object Oriented Programming</li>
+        <li>CSCI 0160: Introduction to Data Structures and Algorithms</li>
+        <li>CSCI 0330: Introduction to Computer Systems</li>
+        <li>CSCI 0320: Introduction to Software Engineering</li>
+        <li>CSCI 1951A: Data Science</li>
+        </ul>
+        <h3>Mathematics</h3>
+        <ul>
+        <li>MATH 0100: Introductory Calculus, Part II</li>
+        <li>MATH 0520: Linear Algebra</li>
+        <li>APMA 1650: Statistical Inference I</li>
+        <li>CLPS 0900: Statistical Methods</li>
+        </ul>
+        <h3>Biology</h3>
+        <ul>
+        <li>BIOL 0470: Genetics</li>
+        <li>BIOL 0200: Foundation of Living Systems</li>
+        </ul>
+        <h3>Chemistry</h3>
+        <ul>
+        <li>CHEM 0330: Equilibrium, Rate, Structure</li>
+        <li>CHEM 0350: Organic Chemistry</li>
+        </ul>
+        <h3>Miscellaneous</h3>
+        <ul>
+        <li>ARAB 0100: First-Year Arabic (Year Course)</li>
+        <li>ARAB 0200: First-Year Arabic (Year Course)</li>
+        <li>ENGL 0950: Creative Nonfiction</li>
+        </ul>
+    </div>
+    <div id="contact">
+        <h1 style="font-size:36px">Contact Me</h1>
+        <div id="contact_box">
+        <p> I am eager to work on exciting and new software and machine learning projects with a focus on deep learning. I love to learn how to use different methods to solve problems and learning different ways of solving problems. I am available through email and linkedin. </p>
+        </div>
+        <div> <i class="fa fa-linkedin-square" style="font-size:24px;color:blue"></i><a href="https://www.linkedin.com/in/nasheath-ahmed-562761141">  LinkedIn</a></div>
+
+        <br>
+        <div> <i class="fa fa-github-square" style="font-size:24px;color:blue"></i><a href="https://github.com/nahmed12">  Github</a></div>
+
+        <br>
+        <div> <i class="material-icons" style="font-size:24px;color:blue">email</i><a href = "mailto:nasheath_ahmed@brown.edu">  Send Email</a></div>
+
+    </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
 </html>
